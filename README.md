@@ -6,6 +6,7 @@ An [elli][] middleware to add the following header to all responses:
 X-Powered-By: LFE
 ```
 
+[elli]: https://github.com/knutin/elli
 
 ## Usage:
 

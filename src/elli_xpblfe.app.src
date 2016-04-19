@@ -11,7 +11,7 @@
   {maintainers,  ["Eric Bailey"]},
   {licenses,     ["WTFPL"]},
   {links, [
-    {"GitHub",        "https://github.com/quasiquoting/elli_xpblfe]"},
+    {"GitHub",        "https://github.com/quasiquoting/elli_xpblfe"},
     {"Documentation", "http://quasiquoting.org/elli_xpblfe"}
   ]}
 ]}.

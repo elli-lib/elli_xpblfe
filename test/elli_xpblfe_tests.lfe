@@ -45,7 +45,10 @@
   (proplists:get_value "x-powered-by" (headers response)))
 
 (defun setup ()
-  (application:ensure_all_started 'inets)
+  (application:start 'crypto)
+  (application:start 'public_key)
+  (application:start 'ssl)
+  (inets:start)
   (let* ((config    `[#(mods [#(elli_example_middleware [])
                               #(elli_middlware_compress [])
                               #(elli_example_callback [])

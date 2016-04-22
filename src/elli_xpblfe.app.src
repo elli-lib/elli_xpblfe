@@ -2,7 +2,7 @@
 
 {application, elli_xpblfe, [
   {description,  "Elli middleware to add X-Powered-By: LFE header."},
-  {vsn,          "0.1.1"},
+  {vsn,          "0.1.2"},
   {registered,   []},
   {applications, [kernel, stdlib]},
   {env,          []},

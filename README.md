@@ -1,5 +1,9 @@
 # elli_xpblfe
 
+[![Build Status](https://travis-ci.org/quasiquoting/elli_xpblfe.svg?branch=master)](https://travis-ci.org/quasiquoting/elli_xpblfe)
+[![img](https://img.shields.io/hexpm/v/elli_xpblfe.svg)](https://hex.pm/packages/elli_xpblfe)
+[![img](https://img.shields.io/badge/docs-100%25-green.svg)](http://quasiquoting.org/elli_xpblfe)
+
 An [elli][] middleware to add the following header to all responses:
 
 ```http
@@ -8,7 +12,16 @@ X-Powered-By: LFE
 
 [elli]: https://github.com/knutin/elli
 
-## Usage:
+
+## Config
+
+rebar.config:
+```erlang
+{elli_xpblfe, "0.1.1"}
+```
+
+
+## Usage
 
 Just add it to the `mods` in your `elli_middleware` callback args:
 

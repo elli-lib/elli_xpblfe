@@ -1,4 +1,4 @@
 [submodule "doc"]
-	path = doc
-	url = git@github.com:quasiquoting/elli_xpblfe.git
+	path   = doc
+	url    = git@github.com:elli-lib/elli_xpblfe.git
 	branch = gh-pages

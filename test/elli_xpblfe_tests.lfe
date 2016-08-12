@@ -1,6 +1,6 @@
 (defmodule elli_xpblfe_tests
   (behaviour ltest-unit)
-  (export (elli_xpblfe_test_ 0))) 
+  (export (elli_xpblfe_test_ 0)))
 
 (include-lib "ltest/include/ltest-macros.lfe")
 

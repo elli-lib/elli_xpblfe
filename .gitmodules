@@ -1,4 +1,0 @@
-[submodule "doc"]
-	path   = doc
-	url    = git@github.com:elli-lib/elli_xpblfe.git
-	branch = gh-pages

@@ -12,6 +12,6 @@
   {licenses,     ["WTFPL"]},
   {links, [
     {"GitHub",        "https://github.com/elli-lib/elli_xpblfe"},
-    {"Documentation", "https://hexdocs.pm/elli_xpblfe"}
+    {"Documentation", "https://elli-lib.github.io/elli_xpblfe"}
   ]}
 ]}.
